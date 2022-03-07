@@ -55,5 +55,5 @@ class Spider:
 
 
 if __name__ == "__main__":
-    Spider = Spider()
-    Spider.fetch()
+    spider = Spider()
+    spider.fetch()

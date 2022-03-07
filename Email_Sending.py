@@ -45,5 +45,5 @@ if __name__ == "__main__":
         receivers = json.load(file)
         file.close()
 
-    Postman = Postman()
-    Postman.send(receivers["addresses"])
+    postman = Postman()
+    postman.send(receivers["addresses"])

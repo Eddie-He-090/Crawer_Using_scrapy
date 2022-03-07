@@ -99,11 +99,11 @@ class Spider:
 
 
 if __name__ == "__main__":
-    Spider = Spider()
-    first_ReportIDIssueTime = Spider.fetch()
-    if Spider.verify(first_ReportIDIssueTime) is not True:
+    spider = Spider()
+    first_ReportIDIssueTime = spider.fetch()
+    if spider.verify(first_ReportIDIssueTime) is not True:
         with open("./receivers.json", "r") as file:
             receivers = json.load(file)
             file.close()
-        Postman = Postman()
-        Postman.send(receivers["addresses"])
+        postman = Postman()
+        postman.send(receivers["addresses"])
