@@ -12,7 +12,7 @@ from email.mime.text import MIMEText
 from email.header import Header
 
 
-class CrawerUsingScrapyPipeline:
+class CrawlerUsingScrapyPipeline:
     def process_item(self, item, spider):
         first_ReportIDIssueTime = "2022-02-28"
         addresses = [

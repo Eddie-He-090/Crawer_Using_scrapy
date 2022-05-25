@@ -1,3 +1,0 @@
-[scrapy]
-settings = Crawer_Using_scrapy.settings
-

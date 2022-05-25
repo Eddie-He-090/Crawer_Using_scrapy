@@ -1,4 +1,4 @@
-# Scrapy settings for Crawer_Using_scrapy project
+# Scrapy settings for crawler_using_scrapy project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,14 +7,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = "Crawer_Using_scrapy"
+BOT_NAME = "crawler_using_scrapy"
 
-SPIDER_MODULES = ["Crawer_Using_scrapy.spiders"]
-NEWSPIDER_MODULE = "Crawer_Using_scrapy.spiders"
+SPIDER_MODULES = ["crawler_using_scrapy.spiders"]
+NEWSPIDER_MODULE = "crawler_using_scrapy.spiders"
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-# USER_AGENT = 'Crawer_Using_scrapy (+http://www.yourdomain.com)'
+# USER_AGENT = 'crawler_using_scrapy (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -45,13 +45,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 # SPIDER_MIDDLEWARES = {
-#    'Crawer_Using_scrapy.middlewares.CrawerUsingScrapySpiderMiddleware': 543,
+#    'crawler_using_scrapy.middlewares.CrawerUsingScrapySpiderMiddleware': 543,
 # }
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 # DOWNLOADER_MIDDLEWARES = {
-#    'Crawer_Using_scrapy.middlewares.CrawerUsingScrapyDownloaderMiddleware': 543,
+#    'crawler_using_scrapy.middlewares.CrawerUsingScrapyDownloaderMiddleware': 543,
 # }
 
 # Enable or disable extensions
@@ -63,7 +63,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    "Crawer_Using_scrapy.pipelines.CrawerUsingScrapyPipeline": 300,
+    "crawler_using_scrapy.pipelines.CrawlerUsingScrapyPipeline": 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
