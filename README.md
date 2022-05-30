@@ -20,6 +20,14 @@ If the "考试动态" is updated, a notification e-mail will be sent to your mai
 
 5. Add your e-mail address in the `receivers.json` and it will work, hopefully.
 
+### File layout
+
+``` shell
+|-- crawler.py
+|-- receivers.json
+|-- ReportIDIssueTime.json
+```
+
 ### Let me run it for you
 
 There are 2 ways to do it:
